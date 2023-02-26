@@ -1,0 +1,238 @@
+body {
+    background-color: #6f8c9e;
+}
+.head {
+    display: flex;
+    justify-content: center;
+}
+img {
+    border-radius: 5px;
+}
+h1, h2, h3, h4, p {
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    flex-grow: 1;
+    flex-basis: 30%;
+    padding: 5px;
+    text-align: center;
+    border: dashed #7bd2c9 1px;
+    margin: 5px;
+    
+}
+h4 {
+    color: #dce1e7;
+}
+h3 {
+   color: #374049;
+}
+.header {
+    color: #dce1e7;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btnShow {
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 3px;
+    background-color: #bad4ee;
+    font-family: 'Montserrat', sans-serif;
+}
+.change {
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    background-color: #7bd2c9;
+    margin: 5px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background: #bad4ee;
+    padding: 15px;
+}
+.link {
+    padding: 5px 20px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.aboutMain {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.par {
+    font-size: 20px;
+}
+.containerTwo {
+    display: flex;
+    flex-direction: column;
+}
+.namePhoto {
+    display: flex;
+    justify-content: center;
+}
+.descr {
+    color: #dce1e7;
+}
+.setPhoto {
+    display: flex;
+    justify-content: center;
+}
+.btnTwo {
+    align-self: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin: 3px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+.aboutPar {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #374049
+}
+.aboutPar2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutMainTwo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    background-image: linear-gradient(to right bottom, #606dbc 30%, #80D0C7 50%, #80D0C7 20%);
+}
+.formMain {
+
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+.mail {
+    display: flex;
+    justify-content: center;
+    padding: 15px;    
+}
+label {
+    padding: 10px;
+    border: none;
+}
+textarea {
+    border: none;
+    padding: 30px;
+    width: 300px;
+}
+.btnForm {
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    background-image: linear-gradient(to right bottom, #606dbc 30%, #80D0C7 50%, #80D0C7 20%);
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.contactOne {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.contactAdr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.phone {
+    text-decoration: none;
+    color: #374049;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    border: solid 1px #7bd2c9;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height: 50px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-image: linear-gradient(to right bottom, #606dbc 30%, #80D0C7 50%, #80D0C7 20%);
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+:hover.btnTwo, .btnForm {
+    cursor: pointer;
+}
+
+@media all and (max-width: 500px) {
+    .link {
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+    .header {
+        font-size: 15px;
+    }
+    .par {
+        font-size: 16px;
+    }
+    .imgSlider {
+        width: 250px;
+    }
+    .btnTwo {
+        padding: 5px;
+        margin: 1px;
+    }
+    .aboutPar {
+        font-size: 17px;
+    }
+    .contactAdrOne {
+        font-size: 15px;
+    }
+    .contactTwo {
+        font-size: 15px;
+    }
+    .phone {
+        font-size: 15px;
+    }
+    .mail {
+        font-size: 13px;
+        padding: 5px;
+    }
+    .btnForm {
+        padding: 12px;
+        font-size: 12px;
+    }
+    label {
+        padding: 10px;
+    }
+    textarea {
+        padding: 5px;
+        width: 300px;
+    }
+    }
+
